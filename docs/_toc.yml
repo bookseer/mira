@@ -22,5 +22,8 @@ parts:
     - file: mirapolis/ch02
     - file: mirapolis/ch03
     - file: mirapolis/ch04
+    - file: mirapolis/ch05
+    - file: mirapolis/ch06
+    #- file: mirapolis/ch07
 
 

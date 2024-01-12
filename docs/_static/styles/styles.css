@@ -1,6 +1,6 @@
 /* BookSeer styles */
 
-h1, h2, a {color: #E44621 !important;}
+h1, h2, h3, a {color: #E44621 !important;}
 
 nav.bd-links .current > a {box-shadow: inset max(3px,.1875rem,.12em) 0 0 #E44621;}
 
