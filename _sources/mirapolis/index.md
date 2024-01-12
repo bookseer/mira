@@ -15,8 +15,4 @@ kernelspec:
 
 Тут будет, а может и нет какой-то текст.
 
-:::{tableofcontents}
-:::
-
-
-<img src="./images/logo-mirapolis-big.png" alt="Мираполис" class="bg-primary mb-1" width="100%">
+<img src="./images/logo-mirapolis-big.png" alt="Мираполис" width="100%">

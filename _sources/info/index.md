@@ -14,9 +14,4 @@ kernelspec:
 
 Тут будет, а может и нет какой-то текст.
 
-Картинку надо поправить
-
-:::{tableofcontents}
-:::
-
-<img src="./images/logo-vertical.svg" alt="Профессии будущего" class="bg-primary mb-1" width="100%">
+<img src="./images/logo-vertical.svg" alt="Профессии будущего" width="100%">
