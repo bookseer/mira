@@ -1,0 +1,6 @@
+mirapolis/ch01.md:353: [redirected with Found] http://linkedIn.com to http://blocked.mgts.ru/?url=http%3A%2F%2Flinkedin.com%2F&ip=13.107.42.14
+mirapolis/ch05.md:572: [redirected with Found] http://LinkedIn.com to http://blocked.mgts.ru/?url=http%3A%2F%2Flinkedin.com%2F&ip=13.107.42.14
+mirapolis/ch01.md:252: [redirected permanently] http://hh.ru to https://hh.ru/
+mirapolis/ch05.md:568: [redirected permanently] http://Hh.ru to https://hh.ru/
+mirapolis/ch05.md:570: [redirected permanently] http://Superjob.ru to https://www.superjob.ru/
+mirapolis/ch01.md:252: [redirected permanently] http://superjob.ru to https://www.superjob.ru/

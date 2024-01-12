@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Общая информация &#8212; Инструкции по программе «Профессии будущего»</title>
+    <title>Инструкция по работе с системой Mirapolis &#8212; Инструкции по программе «Профессии будущего»</title>
   
   
   
@@ -73,7 +73,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Алфавитный указатель" href="../genindex.html" />
     <link rel="search" title="Поиск" href="../search.html" />
-    <link rel="next" title="Описание функционала" href="ch01.html" />
+    <link rel="next" title="Описание функционала системы для пользователя с ролью «Рекрутер», «Руководитель подбора»" href="ch01.html" />
     <link rel="prev" title="Вопросы и ответы" href="../info/faq.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="ru"/>
@@ -186,11 +186,13 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Мираполис</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Общая информация</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="ch01.html">Описание функционала</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Инструкция по работе с системой Mirapolis</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="ch01.html">Описание функционала системы для пользователя с ролью «Рекрутер», «Руководитель подбора»</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ch02.html">Создание заявки на подбор персонала</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ch03.html">Проставление решения по заявке на подбор персонала</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ch04.html">Работа с вакансией</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch05.html">Работа с кандидатом</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ch06.html">Отчеты</a></li>
 </ul>
 </li>
 </ul>
@@ -329,7 +331,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Общая информация</h1>
+    <h1>Инструкция по работе с системой Mirapolis</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -343,10 +345,86 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="mirapolis-index">
-<span id="id1"></span><h1>Общая информация<a class="headerlink" href="#mirapolis-index" title="Permalink to this heading">#</a></h1>
-<p>Тут будет, а может и нет какой-то текст.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="mirapolis">
+<span id="mirapolis-index"></span><h1>Инструкция по работе с системой Mirapolis<a class="headerlink" href="#mirapolis" title="Permalink to this heading">#</a></h1>
+<p><strong>Для ролей «Рекрутер», «Руководитель подбора»</strong></p>
+<p>Версия 1.00</p>
 <a class="reference internal image-reference" href="../_images/logo-mirapolis-big.png"><img alt="Мираполис" src="../_images/logo-mirapolis-big.png" style="width: 100%;" /></a>
+<p>Настоящий документ описывает порядок действий, доступных пользователям с
+ролью «Рекрутер», «Руководитель подбора» системы («Mirapolis HCM», далее
+по тексту – «Система») при работе с блоком «Подбор»:</p>
+<p>1. Подача, согласование и распределение заявки на подбор персонала;</p>
+<p>2. Работа с вакансией;</p>
+<p>3. Работа с кандидатами;</p>
+<p>4. Работа с отчетами.</p>
+<p>1. При работе по процессу «<strong>Подача, согласование и распределение
+заявки на подбор персонала</strong>» решаются следующие задачи:</p>
+<ul class="simple">
+<li><p>Подача заявки на подбор персонала;</p></li>
+<li><p>Проставление решения по заявке;</p></li>
+<li><p>Распределение заявки в работу.</p></li>
+</ul>
+<p>2. При работе по процессу <strong>«Работа с вакансией»</strong> решаются следующие
+задачи:</p>
+<ul class="simple">
+<li><p>Добавление вакансии без заявки;</p></li>
+<li><p>Публикация вакансии в Банке вакансий;</p></li>
+<li><p>Поиск вакансии в базе.</p></li>
+</ul>
+<p>3. При работе по процессу <strong>«Работа с кандидатами»</strong> решаются следующие
+задачи:</p>
+<ul class="simple">
+<li><p>Создание кандидатов;</p></li>
+<li><p>Импорт кандидатов;</p></li>
+<li><p>Поиск кандидатов в базе;</p></li>
+<li><p>Добавление кандидатов на вакансию;</p></li>
+<li><p>Добавление событий подбора и проставление решений по ним.</p></li>
+</ul>
+<p>4. При работе по процессу <strong>«Работа с отчетами»</strong> решаются следующие
+задачи:</p>
+<ul class="simple">
+<li><p>Построение отчета в системе;</p></li>
+<li><p>Выгрузка отчета.</p></li>
+</ul>
+<p>Настоящий документ содержит раздел <strong>«Описание функционала системы»</strong> и
+предназначен для сотрудников, которым в системе назначена роль
+«Рекрутер», «Руководитель подбора» (далее – «HR сотрудник»).</p>
+<p>В описании пользовательского функционала подачи и согласования заявки на
+подбор указано:</p>
+<ul class="simple">
+<li><p>как сделать заявку на подбор</p></li>
+<li><p>как согласовать, отклонить или вернуть на доработку заявку на
+подбор, если заявка поступила Вам на согласование.</p></li>
+</ul>
+<p>В описании пользовательского функционала работы с вакансией указано:</p>
+<ul class="simple">
+<li><p>как добавить новую вакансию без заявки;</p></li>
+<li><p>как опубликовать вакансию на внутренней странице вакансий;</p></li>
+<li><p>как найти вакансию в базе вакансий в системе.</p></li>
+</ul>
+<p>В описании пользовательского функционала работы с кандидатами указано:</p>
+<ul class="simple">
+<li><p>как создать нового кандидата вручную;</p></li>
+<li><p>как создать кандидата из сотрудника;</p></li>
+<li><p>как импортировать кандидата из файла/ из буфера обмена;</p></li>
+<li><p>как импортировать кандидата с работного сайта;</p></li>
+<li><p>как найти кандидата в базе кандидатов по параметрам или по
+контекстному поиску;</p></li>
+<li><p>как добавить кандидата на вакансию;</p></li>
+<li><p>как добавить событие подбора по кандидату на вакансии;</p></li>
+<li><p>как проставить решение по событию подбора.</p></li>
+</ul>
+<p>В описании пользовательского функционала работы с отчетами указано:</p>
+<ul class="simple">
+<li><p>как построить отчет в системе;</p></li>
+<li><p>как выгрузить отчет на ПК.</p></li>
+</ul>
+<p>Пользуясь оглавлением, перейдите на интересующую Вас страницу. В каждой
+главе описан порядок действий по решению конкретных задач с графическим
+представлением необходимых действий пользователя. Каждому шагу
+присваивается номер в формате (1). Этому номеру соответствует указание в
+формате красного круга с данным номером, обозначая, куда нужно нажать в
+системе и в каком порядке.</p>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -395,7 +473,7 @@ document.write(`
        title="следующая страница">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">вперёд</p>
-        <p class="prev-next-title">Описание функционала</p>
+        <p class="prev-next-title">Описание функционала системы для пользователя с ролью «Рекрутер», «Руководитель подбора»</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
