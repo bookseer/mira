@@ -1,0 +1,1 @@
+mirapolis/ch01.md:354: [broken] https://linkedIn.com/: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
